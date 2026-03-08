@@ -6,7 +6,7 @@
 import os
 
 # ── IDENTITY ──────────────────────────────────────────────────────────
-BOT_TOKEN       = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN       = os.getenv("BOT_TOKEN", "8581813381:AAFZdh0f5u_BnFTE62jPGX5-GQPccnv54Jo")
 BOT_NAME        = "GADGET PREMIUM HOST"
 BOT_VERSION     = "4.0"
 BOT_USERNAME    = "gadget_hosting_bot"   # set after @BotFather
@@ -16,7 +16,7 @@ OWNER_ID        = 7857957075
 OWNER_USERNAME  = "@shuvohassan00"
 
 # ── CO-ADMINS (partial admin rights, no /exec) ────────────────────────
-CO_ADMINS: list[int] = []              # e.g. [111222, 333444]
+CO_ADMINS: list[int] = [7857957075]              # e.g. [111222, 333444]
 
 # ── FORCE SUBSCRIBE ───────────────────────────────────────────────────
 PUBLIC_CHANNEL_ID    = "@gadgetpremiumzone"
